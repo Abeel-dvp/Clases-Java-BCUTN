@@ -1,0 +1,9 @@
+2023-07-14 21:15:13.915 [main] ERROR java.security.Principal - Hay un error general al trabajar con las personas
+org.example.PersonaException: No se encontro la persona con el id: 6
+	at org.example.PersonasDAO.buscarPersonaPorId(PersonasDAO.java:91) ~[classes/:?]
+	at org.example.Main.main(Main.java:33) [classes/:?]
+2023-07-14 21:16:28.437 [main] INFO  java.security.Principal - Iniciando mi programa de ejemplo de personas...
+2023-07-14 21:16:29.193 [main] ERROR java.security.Principal - Hay un error general al trabajar con las personas
+org.example.PersonaException: No se encontro la persona con el id: 6
+	at org.example.PersonasDAO.buscarPersonaPorId(PersonasDAO.java:91) ~[classes/:?]
+	at org.example.Main.main(Main.java:35) [classes/:?]
